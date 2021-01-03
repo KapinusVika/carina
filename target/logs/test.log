@@ -1,0 +1,187 @@
+2021-01-03 21:11:45 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://jsonplaceholder.typicode.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+browser=chrome
+browser_language=en_US
+selenium_host=http://localhost:4444/wd/hub
+max_driver_count=3
+headless=false
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+track_known_issues=false
+auto_screenshot=true
+explicit_timeout=20
+auto_download=false
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=0
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+thread_count=3
+data_provider_thread_count=1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+forcibly_disable_driver_quit=false
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_property_name=new_custom_messages_
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_bitrate=1000000
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2021-01-03 21:11:46 CarinaListener [INFO] CARINA_CORE_VERSION: 6.5.46
+2021-01-03 21:11:46 AbstractCapabilities [INFO] Set Chrome language to: en_US
+2021-01-03 21:11:55 DesktopFactory [INFO] Browser window was maximized
+2021-01-03 21:11:55 Messager [INFO]  TEST [carinaFirst - checkURL] STARTED at [21:11:55 2021-01-03]
+2021-01-03 21:11:55 Messager [INFO]  TEST [carinaFirst - checkURL] PASSED at [21:11:55 2021-01-03]
+2021-01-03 21:11:55 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-01-03 21:11:55 Messager [INFO] RESULT #1: TEST [carinaFirst - checkURL] PASS [log=./1609697505747/21c54022-3560-4de2-8613-26ff3f114d9f/test.log]
+2021-01-03 21:11:55 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2021-01-03 21:14:54 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://jsonplaceholder.typicode.com
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+browser=chrome
+browser_language=en_US
+selenium_host=http://localhost:4444/wd/hub
+max_driver_count=3
+headless=false
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+track_known_issues=false
+auto_screenshot=true
+explicit_timeout=20
+auto_download=false
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=0
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+thread_count=3
+data_provider_thread_count=1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+forcibly_disable_driver_quit=false
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_property_name=new_custom_messages_
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_bitrate=1000000
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+selenium_host=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+================================================
+
+2021-01-03 21:14:55 CarinaListener [INFO] CARINA_CORE_VERSION: 6.5.46
+2021-01-03 21:14:55 AbstractCapabilities [INFO] Set Chrome language to: en_US
+2021-01-03 21:14:57 DesktopFactory [INFO] Browser window was maximized
+2021-01-03 21:14:57 Messager [INFO]  TEST [carinaFirst - testOpenPage] STARTED at [21:14:57 2021-01-03]
+2021-01-03 21:14:57 Messager [INFO] INFO: url 'https://jsonplaceholder.typicode.com' is being opened...
+2021-01-03 21:14:58 DriverListener [INFO] INFO: url 'https://jsonplaceholder.typicode.com' is opened.
+2021-01-03 21:15:00 Messager [INFO]  TEST [carinaFirst - testOpenPage] PASSED at [21:15:00 2021-01-03]
+2021-01-03 21:15:00 Messager [INFO]  TEST [carinaFirst - testFind] STARTED at [21:15:00 2021-01-03]
+2021-01-03 21:15:06 Messager [ERROR]  TEST [carinaFirst - testFind] FAILED at [21:15:06 2021-01-03] - Footer menu wasn't found! expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:97)
+org.testng.Assert.failNotEquals(Assert.java:969)
+org.testng.Assert.assertTrue(Assert.java:43)
+com.qaprosoft.carina.demo.WebSampleSingleDriver.testFind(WebSampleSingleDriver.java:72)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:766)
+org.testng.TestRunner.run(TestRunner.java:587)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+org.testng.SuiteRunner.run(SuiteRunner.java:286)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+org.testng.TestNG.runSuites(TestNG.java:1039)
+org.testng.TestNG.run(TestNG.java:1007)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-01-03 21:15:06 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-01-03 21:15:06 Messager [INFO] RESULT #1: TEST [carinaFirst - testOpenPage] PASS [screenshots=./1609697694588/4520e066-c534-4ef3-85f4-7d4a371aa523/report.html | log=./1609697694588/4520e066-c534-4ef3-85f4-7d4a371aa523/test.log]
+2021-01-03 21:15:06 Messager [INFO] RESULT #2: TEST [carinaFirst - testFind] FAIL [screenshots=./1609697694588/264ef749-93a4-445b-aecf-7cc0bb77a98c/report.html | log=./1609697694588/264ef749-93a4-445b-aecf-7cc0bb77a98c/test.log]
+2021-01-03 21:15:06 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
