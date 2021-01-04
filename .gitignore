@@ -22,11 +22,7 @@
 .settings/*
 target/*
 test-output/*
-reports/*
-/reports
 /.metadata/
-/.classpath
-/.project
 .idea
 *.iml
 /target/
