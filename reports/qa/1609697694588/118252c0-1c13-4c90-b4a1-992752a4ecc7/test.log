@@ -1,3 +1,0 @@
-[2021-01-03 09:15:06] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2021-01-03 09:15:06] [IMessager.java] [1] [INFO] RESULT #1: TEST [carinaFirst - testOpenPage] PASS [screenshots=./1609697694588/4520e066-c534-4ef3-85f4-7d4a371aa523/report.html | log=./1609697694588/4520e066-c534-4ef3-85f4-7d4a371aa523/test.log]
-[2021-01-03 09:15:06] [IMessager.java] [1] [INFO] RESULT #2: TEST [carinaFirst - testFind] FAIL [screenshots=./1609697694588/264ef749-93a4-445b-aecf-7cc0bb77a98c/report.html | log=./1609697694588/264ef749-93a4-445b-aecf-7cc0bb77a98c/test.log]
